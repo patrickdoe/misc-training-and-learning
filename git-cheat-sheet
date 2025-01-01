@@ -1,0 +1,23 @@
+Git cheat-sheet.
+(https://learngitbranching.js.org/)
+----------------
+
+git commit
+git checkout
+git branch
+git rebase <branch1> <branch2>
+
+git HEAD^
+git HEAD~3
+git branch -f main HEAD~3            # Reassign a branch to a commit with the -f option
+
+git revert (Remote use)              # Will move a branch backwards as if the commit had never been made in the first place.
+git reset  (Local use)               # Reverses changes by moving a branch reference backwards in time to an older commit.
+
+git cherry-pick <Commit1> <Commit2> <...>
+
+git rebase -i HEAD~4
+
+----------------
+
+
